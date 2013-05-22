@@ -33,17 +33,27 @@
     "grunt-contrib": "~0.1.0",
     "grunt-recess": "~0.1.0"
   },
-  "keywords": [
-    "fuelux",
-    "fuel ux",
-    "bootstrap"
-  ],
   "private": true,
   "volo": {
     "baseDir": "lib",
     "url": "https://raw.github.com/ExactTarget/fuelux/{version}/dist/fuelux.zip",
     "type": "directory",
     "dependencies": {
+    }
+  },
+  "keywords": [
+    "package",
+    "jam",
+    "fuelux",
+    "fuel ux"
+  ],
+  "jam": {
+    "dependencies": {
+      "bootstrap-jam": ">=2.3.1"
+    },
+    "shim": {
+      "deps": ["bootstrap-jam"],
+      "exports": "fuelux"
     }
   }
 }
