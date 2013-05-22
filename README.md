@@ -2,6 +2,8 @@
 
 This repository is a fork of `fuelux` repository whose purpose is to provide a packaging to [Jam](https://github.com/caolan/jam).
 
+# fuelux
+
 [![Fuel UX](https://s3.amazonaws.com/fuelux/logo-gray.png)](http://exacttarget.github.com/fuelux)
 
 Fuel UX extends Twitter Bootstrap with additional lightweight JavaScript controls.
