@@ -2,7 +2,7 @@
   "name": "fuelux-jam",
   "title": "Fuel UX",
   "version": "2.3.0",
-  "description": "Base Fuel UX styles and controls",
+  "description": "Base Fuel UX styles and controls.",
   "homepage": "https://github.com/ExactTarget/fuelux",
   "author": {
     "name": "ExactTarget",
@@ -55,5 +55,6 @@
       "deps": ["bootstrap-jam"],
       "exports": "fuelux"
     }
-  }
+  },
+  "github": "https://github.com/leodido/fuelux-jam"
 }
