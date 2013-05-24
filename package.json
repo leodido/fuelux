@@ -48,6 +48,7 @@
     "fuel ux"
   ],
   "jam": {
+    "main": "dist/all.js",
     "dependencies": {
       "bootstrap-jam": ">=2.3.1"
     },
