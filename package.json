@@ -48,12 +48,9 @@
     "fuel ux"
   ],
   "jam": {
-    "main": "dist/all.js",
-    "dependencies": {
-      "bootstrap-jam": ">=2.3.1"
-    },
+    "dependencies": { },
     "shim": {
-      "deps": ["bootstrap-jam"],
+      "deps": [],
       "exports": "fuelux"
     }
   },
